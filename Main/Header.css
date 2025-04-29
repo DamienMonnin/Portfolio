@@ -38,6 +38,7 @@ div.head {
     border-left: solid var(--bord) #000;
     
     text-decoration: none;
+    text-align: center;
 }
 
 .a_head:hover {
