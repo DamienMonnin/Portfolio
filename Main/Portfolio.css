@@ -1,0 +1,240 @@
+@import url(Main.css);
+@import url(Header.css);
+@import url(Footer.css);
+
+
+:root{
+
+    --marge: 10px;
+    --g_marge: 30px
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.principale {
+
+    width: 80%;
+    margin-top: 1px;
+
+    background-color: var(--col1);
+}
+
+h1 {
+
+    margin-left: calc(5% - var(--marge));
+    text-decoration: underline;
+    color: var(--colt);
+}
+
+div.section {
+
+    margin-bottom: var(--g_marge);
+
+    width: 90%;
+    margin-left: calc(5% - var(--marge));
+    background-color: var(--col3);
+    border-radius: 7px;
+    padding: var(--marge);
+}
+
+
+.pres_text {
+
+    background-color: var(--col3);
+    border-radius: 7px;
+    padding: var(--marge);
+    display: flex;
+    flex-direction: column;
+}
+
+.pres_text t {
+
+    padding-bottom: 3px;
+}
+
+
+.cv_contenue {
+
+    width: 100%;
+
+    display: flex;
+}
+
+.pdf_cv {
+
+    width: 60%;
+    height: 300px;
+
+    padding: var(--marge);
+}
+
+.cv_info {
+
+    width: 40%;
+    padding-top: var(--marge);
+}
+
+.cv_button {
+
+    text-align: center;
+
+    margin-top: 25%;
+
+    width: 100%;
+    height: 22%;
+
+    font-size: 24px;
+
+    background-color: var(--col5);
+    border-radius: 7px;
+
+    /*border: solid #000 2px;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+    text-decoration: none;
+
+    
+}
+
+.cv_maj {
+
+    margin-top: 10%;
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+
+.lettrem_text {
+
+    background-color: var(--col3);
+    border-radius: 7px;
+    padding: var(--marge);
+}
+
+.pdf_lettre {
+
+    width: 100%;
+}
+
+.projsco_resum {
+
+    margin: var(--marge);
+    font-size: 20px;
+}
+
+.projsco_contenue {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.cellule {
+
+    width: 45%;
+    background-color: var(--col4);
+    margin: var(--marge);
+    border-radius: 7px;
+
+    padding: var(--marge);
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.cellule_plus {
+
+    background-color: var(--col3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projsco_text {
+
+    padding: var(--marge);
+}
+
+.cellule_button {
+
+    margin-top: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+
+    background-color: var(--col5);
+
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.exppro_resum {
+
+    margin: var(--marge);
+    font-size: 20px;
+}
+
+.exppro_contenue {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.exppro_text {
+
+    padding: var(--marge);
+}
+
+.projpers_contenue {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projpers_img {
+
+    padding: var(--marge);
+}
+
+.projpers_img img {
+
+    width: 100%;
+}
+
+
+
+.boutton {
+
+    color: var(--colt);
+}
+
+.boutton:hover {
+
+    opacity: 80%;
+}
+

@@ -1,0 +1,36 @@
+
+
+
+:root {
+
+    --col1 : #002a32;
+    --col2 : #C4A29E;
+    --col3 : #9AD4D6;
+    --col4 : #924F5E;
+    --col5 : var(--col1);
+    --header_size : 80px;
+    --colt : aliceblue;
+    /*#F7F06D*/
+}
+
+* {
+
+    scroll-padding-top: calc(var(--header_size) + 10px);
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--col1);
+}
+
+h2 {
+
+    margin: 0px;
+}
+
+h3 {
+
+    margin: 0px;
+}

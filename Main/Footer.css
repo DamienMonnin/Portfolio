@@ -1,0 +1,50 @@
+@import url(Main.css);
+
+:root {
+
+    --bord: 2px;
+    --marge: 10px;
+    --g_marge: 30px
+}
+
+footer {
+
+    width: calc(100% - var(--marge) *2);
+
+    background-color: var(--col2);
+
+    padding: var(--marge);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+
+    margin: var(--marge);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.foot_maj {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.foot_contact {
+
+    margin-bottom: calc(var(--g_marge) - 15px);
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foot_contact t {
+
+    padding-bottom: 3px;
+}
+

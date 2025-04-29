@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="Portfolio.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="head">
+
+                <a class="a_head" id="a_head_1" href="../Main/Portfolio.html">
+
+                    <t class="t_head">Accueil</t>
+                
+                </a>
+                
+                <a class="a_head" href="../Main/Portfolio.html#sec_CV">
+                
+                    <t class="t_head">CV</t>
+                
+                </a>
+                
+                <a class="a_head" href="../Main/Portfolio.html#sec_lettre">
+                
+                    <t class="t_head">Lettre de Motivation</t>
+                
+                </a>
+                
+                <a class="a_head" href="../Main/Portfolio.html#sec_projsco">
+                
+                    <t class="t_head">Projets Scolaires</t>
+                
+                </a>
+                
+                <a class="a_head" href="../Main/Portfolio.html#sec_exppro">
+                
+                    <t class="t_head">Expériences Professionnelles</t>
+                
+                </a>
+
+                <a class="a_head" href="../Main/Portfolio.html#sec_projpers">
+                
+                    <t class="t_head">Projets Personnels</t>
+                
+                </a>
+
+            </div>
+
+        </header>
+
+        <div class="principale">
+
+            <h1>Bienvenue sur le Porfolio de Damien Monnin</h1>
+
+            <div class="presentation section" id="sec_presentation">
+
+                <h2>Ma Présentation :</h2>
+                
+                <div class="pres_text">
+
+                    <t>Je m’appelle Damien MONNIN, et je suis actuellement étudiant en première année de BUT informatique à Nantes. J’ai de bonnes compétences en informatique, notamment en algorithmie, que j’applique avec les langages Python, Golang et Kotlin, dont j’ai une bonne maîtrise. </t>
+                    <br><t>J’ai également appris l’utilisation du HTML et du CSS, et suis donc capable de produire des sites web de qualité intermédiaire. De plus, j’ai de solides bases en SQL, je peux donc gérer des Bases de Données simples. Enfin, nous étudions actuellement le JavaFX qui permet la création d’applications avec IHM (Interface Homme machine). Si ma maîtrise de ce dernier langage est encore un peu limitée, je continue de m’améliorer au fil des cours, et je ne doute pas d’avoir un bon niveau d’ici la fin de cette première année. </t>
+                    <br><t>Pour ce qui est de mes qualités, je suis calme et organisé, et j’ai une grande capacité d’apprentissage et d’adaptation. Je considère avoir une bonne écriture et une bonne expression orale, même si je fais encore des erreurs d’orthographe. Je suis également très autonome mais n’ai aucune difficulté à travailler en équipe. Si nécessaire, je suis capable de prendre des initiatives, tout en respectant les différents cadres imposés. Enfin, j’aime beaucoup l’informatique, plus précisément la programmation, et suis impatient d’en apprendre plus.</t>
+                
+                </div>
+
+            </div>
+
+            <div class="cv section" id="sec_CV">
+
+                <h2>Mon CV :</h2>
+
+                <div class="cv_contenue">
+                
+                    <embed src="../CV/CV.pdf" class="pdf_cv"/>
+                    
+                    <div class="cv_info">
+
+                        <a class="cv_button boutton" href="../CV/CV.pdf" target="_blank">
+                        
+                            <t>Voir mon CV en grand</t>
+                        
+                        </a>
+
+                        <div class="cv_maj">
+
+                            <t>Dernière mise à jour: 10/04/2025</t>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="lettre_motiv section" id="sec_lettre">
+
+                <h2>Lettre de Motivation (Fictive) pour un stage cher ETPO :</h2>
+
+                <div class="cv_contenue">
+
+                    <embed src="../Lettre_Motiv/lettre demotivation.pdf" class="pdf_cv">
+
+                        <div class="cv_info">
+
+                            <a class="cv_button boutton" href="../Lettre_Motiv/lettre demotivation.pdf" target="_blank">
+                            
+                                <t>Voir ma Lettre de Motivation<br> en grand</t>
+                            
+                            </a>
+    
+                            <div class="cv_maj">
+    
+                                <t>Dernière mise à jour: 28/04/2025</t>
+    
+                            </div>
+    
+                        </div>
+
+                </div>
+
+            </div>
+
+            <div class="projets-scolaires section" id="sec_projsco">
+
+                <h2>Projets Scolaires :</h2>
+
+                <div class="projsco_resum">
+
+                    <t>
+                        Actuellement, je suis en première année de BUT Informatique à l’IUT de Nantes. Cette formation assez généraliste me convient très bien car je ne sais pour l’instant pas vers quel domaine de l’informatique me diriger. Le BUT me permet de garder le maximum de portes ouvertes grâce à la diversité des connaissances qui y sont transmises.
+                        <br><br>
+                        Par ailleurs, voici certains des projets que j’ai eu à réaliser pendant ma formation :
+                    </t>
+
+                </div>
+
+                <div class="projsco_contenue">
+
+                    <div class="cellule" id="projsco_1">
+
+                        <h3>Projet QuadTree :</h3>
+
+                        <div class="projsco_text">
+
+                            <t>En cours de Développement, où nous travaillons en Golang, il fallait réaliser en binôme un petit jeu dans lequel un personnage se déplaçait sur un terrain rectangulaire. Nos professeurs nous avaient donné la base du jeu et nous avions à implémenter le principe des QuadTree*, puis à implémenter un certain nombre d’extensions, tel que l’ajout d’animation pour le terrain, ou encore la génération d’un terrain aléatoire infini. 
+                                <br><br>*Découper le terrain en 4 parties, puis chaque partie en 4 sous-parties récursivement jusqu’à atteindre la taille 1. Cela permet de limiter le poids du terrain, mais complexifie son implémentation et son utilisation.</t>
+
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-scolaires/quadtree.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule" id="projsco_2">
+
+                        <h3>Site Web :</h3>
+
+                        <div class="projsco_text">
+
+                            <t>En cours de Communication Professionnelle, nous avons eu à réaliser un site web sur le thème de notre choix par groupe de 3. Avec mes camarades, nous avons décidé de créer un site fictif pour permettre aux utilisateurs de l’application PokemonPoket de communiquer entre eux et de s’échanger des cartes. Nous n’avions alors pas encore étudié le PHP ni le JavaScript, et la seule utilisation à été pour agrandir une carte une fois cliquée.</t>
+
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-scolaires/site_web_com.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule" id="projsco_3">
+
+                        <h3>SAÉ de Base de Données :</h3>
+
+                        <div class="projsco_text">
+
+                            <t>Pour cette SAÉ* de Base de Données, nous avions à transformer un énoncé, en l’occurrence la description d’un service ferroviaire, en une base de données complète pouvant gérer tous les cas présentés par l’énoncé. Ce projet était par groupe de 3, et nous l’avons réalisé sur Oracle avec SQL.
+                                <br><br>
+                                *En fin de semestre, nous avons à rendre des SAÉ. Ce sont des projets plus ou moins importants, souvent en groupe, dans différentes matières. Il y en a 6 par semestre et ils comptent pour 40 % de nos notes.</t>
+
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-scolaires/SAE_bd.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule cellule_plus">
+
+                        <h3>Cette section sera mise à jour régulièrement</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="experience_pro section" id="sec_exppro">
+
+                <h2>Mes Expétiences Professionnelles :</h2>
+
+                <div class="exppro_resum">
+
+                    <t>
+                        Mes expériences professionnelles sont assez limitées, n’ayant jusqu’à présent fait ni petit bouleau ni stage. Cela dit, je me suis engagé dans quelques associations :
+                    </t>
+
+                </div>
+
+                <div class="exppro_contenue">
+
+                    <div class="cellule">
+
+                        <h3>La Maison Des Lycéens :</h3>
+
+                        <div class="exppro_text">
+
+                            <t>J’étais au Lycée La Colinière à Nantes, où il y a une association nommée la Maison Des Lycéens (MDL) dont j’ai été le trésorier durant mes années de Première et de Terminale. Je n’étais évidement pas seul, étant à l’époque mineur, une AED m’aidait pour ce rôle. Cette expérience m’a permis d’acquérir de bonnes bases pour tenir des comptes et gérer l’argent d’une organisation, ainsi que la rigueur nécessaire à ce rôle.
+                                <br><br>Par ailleurs, notre MDL proposait un bar tenu par les élèves, où nous vendions des snacks ainsi que quelques boissons. Cela m’a appris à gérer des stocks et m’a également permis de développer une grande aisance pour recevoir et interagir avec les clients.</t>
+
+                        </div>
+
+                    </div>
+
+                    <div class="cellule">
+
+                        <h3>Le Club de Jeux De Rôle du lycée :</h3>
+
+                        <div class="exppro_text">
+
+                            <t>Au début de mon année de Première, un élève de terminale a proposé la création d’un club de Jeux De Rôle (JDR) au sein de la MDL. Ayant découvert le JDR quelque temps plus tôt, j’ai soutenu la proposition et ai activement participé à sa création. Lors de mon année de Terminale, j’ai maintenu le club en étant entre autre Maître du Jeu*, ce qui m’a aidé à développer mon imagination et ma capacité d’improvisation. Cela m’a également donné de la rigueur, puisque cela nécessitait de créer une nouvelle partie de l’histoire toutes les semaines. Enfin, j'ai également développé des compétences en tant qu'organisateur du groupe.
+                                <br><br>*Personne qui raconte et éventuellement crée l’histoire pour les joueurs.euses, et gère les différents monstres et personnages avec lesquels interagissent les joueurs.euses.</t>
+
+                        </div>
+
+                    </div>
+
+                    <div class="cellule cellule_plus">
+
+                        <h3>Cette section sera mise à jour régulièrement</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="projets_personnels section" id="sec_projpers">
+
+                <h2>Mes Projets Personnels :</h2>
+
+                <div class="projpers_contenue">
+
+                    <div class="cellule" id="projpers_1">
+
+                        <h3>Une association de Jeux De Rôle :</h3>
+
+                        <div class="projpers_img">
+
+                            <img src="../Projet-Perso/JDR.jpg">
+
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-Perso/asso.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule" id="projpers_2">
+
+                        <h3>Un plateau virtuel pour le JDR :</h3>
+
+                        <div class="projpers_img">
+
+                            <img src="../Projet-Perso/plateau_jdr/plat_1.png">
+                            
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-Perso/plateau_virt.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule" id="projpers_3">
+
+                        <h3>Le Jeu de la Vie :</h3>
+
+                        <div class="projpers_img">
+
+                            <img src="../Projet-Perso/Jeu_vie/jeu_de_la_vie.png">
+                            
+                        </div>
+
+                        <a class="cellule_button boutton" href="../Projet-Perso/Jeu_vie.html">
+                        
+                            <t>Voir les détails du projet</t>
+                        
+                        </a>
+
+                    </div>
+
+                    <div class="cellule cellule_plus">
+
+                        <h3>Cette section sera mise à jour régulièrement</h3>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="foot_maj">
+            
+                <h4>Dernière Mise à jour de ce Portfolio :</h4>
+                <br>
+                <t>29 / 04 / 2025</t>
+            
+            </div>
+
+            <div class="foot_contact">
+                
+                <h4>Me contacter :</h4>
+
+                <t>@ Mail : damien.monnin@laposte.net</t>
+                <br>
+                <t>N° Téléphone : 07 69 28 62 14</t>
+                <br>
+                <t>Lien GitLab : <a href="https://gitlab.univ-nantes.fr/E245873D/">https://gitlab.univ-nantes.fr/E245873D/</a></t>
+
+
+            </div>
+
+
+        </footer>
+
+    </body>
+
+</html>
